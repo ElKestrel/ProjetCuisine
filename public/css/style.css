@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  background-image: url("/public/image/banner1.jpg");
+  justify-content: space-evenly;
+  align-items: end;
+}
+nav img {
+  padding-top: 20px;
+}
+nav .gauche {
+  width: 40%;
+}
+nav .gauche .brd {
+  display: flex;
+  border-top: solid black;
+  border-bottom: solid black;
+  justify-content: space-around;
+}
+nav .gauche .pa {
+  padding: 15px 37px 15px 50px;
+}
+nav .droite {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.pa:hover {
+  background: red;
+}
+
+/*# sourceMappingURL=style.css.map */
