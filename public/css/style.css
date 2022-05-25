@@ -2,38 +2,53 @@ body {
   margin: 0;
   background-image: url("/public/image/main_bg.jpg");
 }
-
-header {
+body header {
   background: rgba(0, 0, 0, 0.7) url("/public/image/banner1.jpg");
   background-position: top;
   background-size: 100%;
   background-repeat: no-repeat;
   background-blend-mode: darken;
+  border-bottom: 15px solid transparent;
+  border-image: url("/public/image/bottom_decoration_img.png") 0 0 30 0 round;
 }
-
-.pa:hover {
+body header .pas:hover {
   background: red;
 }
 
-.pas:hover {
-  background: red;
-}
-
-section {
+.sec1 {
   text-align: center;
   font-family: cursive;
   font-size: 70px;
   margin-top: 100px;
   color: white;
 }
-section button {
+.sec1 button {
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
+}
+
+.sec2 {
+  width: 80%;
+}
+.sec2 .our {
+  color: red;
+}
+.sec2 h5 {
+  font-size: 20px;
+}
+.sec2 p {
+  font-size: 14px;
+}
+.sec2 .gray {
+  background-color: gray;
 }
 
 @media screen and (min-width: 320px) and (max-width: 634px) {
   section {
     font-size: 50px;
+  }
+  section button {
+    font-size: 13px;
   }
 }
 
