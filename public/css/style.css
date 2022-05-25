@@ -77,6 +77,15 @@ body .sec4 .gr {
   font-size: 22px;
   font-weight: bold;
 }
+body .sec5 {
+  background-image: url("/public/image/team_background.jpg");
+}
+body .sec5 .testi {
+  width: 25%;
+}
+body .sec5 .tt {
+  width: 10%;
+}
 
 @media screen and (min-width: 320px) and (max-width: 634px) {
   section {
