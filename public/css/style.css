@@ -28,8 +28,22 @@ body .sec1 button {
 body .sec2 {
   width: 80%;
 }
+body .sec2 .para {
+  font-size: 10px;
+}
 body .sec2 .our {
   color: red;
+  font-weight: bold;
+  font-size: 42px;
+  font-family: cursive;
+}
+body .sec2 .rez {
+  width: 100%;
+}
+body .sec2 .font {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 30px;
 }
 body .sec2 h5 {
   font-size: 20px;
@@ -40,8 +54,22 @@ body .sec2 p {
 body .sec2 .gray {
   background-color: gray;
 }
+body .sec2 i:active {
+  color: red;
+}
 body .sec3 {
   background-image: url("/public/image/team_background.jpg");
+}
+body .sec3 .our {
+  color: red;
+  font-weight: bold;
+  font-size: 42px;
+  font-family: cursive;
+}
+body .sec3 .font {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 30px;
 }
 body .sec4 {
   width: 80%;
@@ -77,6 +105,17 @@ body .sec4 .gr {
   font-size: 22px;
   font-weight: bold;
 }
+body .sec4 .our {
+  color: red;
+  font-weight: bold;
+  font-size: 42px;
+  font-family: cursive;
+}
+body .sec4 .font {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
 body .sec5 {
   background-image: url("/public/image/team_background.jpg");
 }
@@ -86,6 +125,28 @@ body .sec5 .testi {
 body .sec5 .tt {
   width: 10%;
 }
+body .sec5 .our {
+  color: red;
+  font-weight: bold;
+  font-size: 42px;
+  font-family: cursive;
+}
+body .sec5 .font {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
+body .sec6 .our {
+  color: red;
+  font-weight: bold;
+  font-size: 42px;
+  font-family: cursive;
+}
+body .sec6 .font {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
 body footer {
   background-image: url("/public/image/footer_background.jpg");
   border-top: 15px solid transparent;
@@ -94,6 +155,10 @@ body footer {
 body footer .fdiv {
   width: 25%;
 }
+body .son {
+  height: 50px;
+  width: 100%;
+}
 
 @media screen and (min-width: 320px) and (max-width: 634px) {
   section {
@@ -101,6 +166,250 @@ body footer .fdiv {
   }
   section button {
     font-size: 13px;
+  }
+
+  .sec2 {
+    width: 80%;
+  }
+  .sec2 .para {
+    font-size: 10px;
+  }
+  .sec2 .our {
+    color: red;
+    font-weight: bold;
+    font-size: 42px;
+    font-family: cursive;
+  }
+  .sec2 .rez {
+    width: 100%;
+  }
+  .sec2 .rez2 {
+    width: 25%;
+  }
+  .sec2 .font {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 20px;
+  }
+  .sec2 h5 {
+    font-size: 20px;
+  }
+  .sec2 p {
+    font-size: 14px;
+  }
+  .sec2 .gray {
+    background-color: gray;
+  }
+  .sec2 i:active {
+    color: red;
+  }
+
+  .ouf {
+    width: 100%;
+  }
+
+  .sec4 {
+    width: 80%;
+  }
+  .sec4 .ok {
+    width: 65%;
+    background-image: url("/public/image/book_table_bg.jpg");
+  }
+  .sec4 .ok .wd {
+    width: 35%;
+  }
+  .sec4 .gauche {
+    position: absolute;
+    width: 40% !important;
+    left: 100px !important;
+  }
+  .sec4 .gauche2 {
+    position: relative;
+    top: 50px !important;
+    left: 2px !important;
+  }
+  .sec4 .droite {
+    position: absolute;
+    width: 40% !important;
+    left: 100px !important;
+    margin-top: 155px;
+  }
+  .sec4 .droite2 {
+    position: relative;
+    top: 205px !important;
+    left: 2px !important;
+  }
+  .sec4 .gr {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .sec4 .our {
+    color: red;
+    font-weight: bold;
+    font-size: 30px !important;
+    font-family: cursive;
+    padding-left: 10px;
+  }
+  .sec4 .rez {
+    width: 100%;
+  }
+  .sec4 .font {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px !important;
+  }
+  .sec4 .carr {
+    font-size: 10px;
+  }
+  .sec4 .ouf {
+    width: 100%;
+  }
+  .sec4 .fz {
+    font-size: 15px;
+    text-align: center;
+  }
+  .sec4 .tm {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sec4 .fintkt {
+    width: 25%;
+  }
+
+  .sec5 {
+    background-image: url("/public/image/team_background.jpg");
+  }
+  .sec5 .testi {
+    width: 100% !important;
+    font-size: 20px;
+  }
+  .sec5 .tt {
+    width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sec5 .our {
+    color: red;
+    font-weight: bold;
+    font-size: 42px;
+    font-family: cursive;
+  }
+  .sec5 .font {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .sec5 .clc {
+    width: 100% !important;
+  }
+
+  .sec6 .our {
+    color: red;
+    font-weight: bold;
+    font-size: 42px;
+    font-family: cursive;
+  }
+  .sec6 .font {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .sec6 .sec6tt {
+    width: 80% !important;
+    font-size: 10px;
+  }
+  .sec6 .clc {
+    width: 100% !important;
+  }
+
+  footer {
+    text-align: center;
+  }
+  footer .des {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (min-width: 634px) and (max-width: 768px) {
+  .sec4 {
+    width: 80%;
+  }
+  .sec4 .ok {
+    width: 65%;
+    background-image: url("/public/image/book_table_bg.jpg");
+  }
+  .sec4 .ok .wd {
+    width: 35%;
+  }
+  .sec4 .gauche {
+    position: absolute;
+    width: 40% !important;
+    left: 250px !important;
+  }
+  .sec4 .gauche2 {
+    position: relative;
+    top: 150px !important;
+    left: 180px !important;
+  }
+  .sec4 .droite {
+    position: absolute;
+    width: 40% !important;
+    left: 250px !important;
+    margin-top: 250px;
+  }
+  .sec4 .droite2 {
+    position: relative;
+    top: 400px !important;
+    left: -115px !important;
+    margin-bottom: 200px;
+  }
+  .sec4 .gr {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .sec4 .our {
+    color: red;
+    font-weight: bold;
+    font-size: 30px !important;
+    font-family: cursive;
+    padding-left: 10px;
+  }
+  .sec4 .rez {
+    width: 100%;
+  }
+  .sec4 .font {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px !important;
+  }
+  .sec4 .carr {
+    font-size: 10px;
+  }
+  .sec4 .ouf {
+    width: 100%;
+  }
+  .sec4 .fz {
+    font-size: 15px;
+    text-align: center;
+  }
+  .sec4 .tm {
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+  }
+  .sec4 .fintkt {
+    width: 25%;
+  }
+
+  footer {
+    text-align: center;
+  }
+  footer .tkt {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  footer .des {
+    margin-bottom: 50px;
   }
 }
 
